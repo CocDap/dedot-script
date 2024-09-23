@@ -2,8 +2,7 @@
   "name": "dedot-script",
   "private": true,
   "scripts": {
-    "start": "ts-node main.ts",
-    "typink": "npx dedot typink -m ./psp22/psp22.json -o ./types"
+    "deploy": "ts-node deploy.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
