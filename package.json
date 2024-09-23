@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "deploy": "ts-node deploy.ts",
-    "query": "ts-node query.ts"
+    "query": "ts-node query.ts",
+    "interact": "ts-node interact.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
