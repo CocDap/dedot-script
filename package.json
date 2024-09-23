@@ -2,7 +2,8 @@
   "name": "dedot-script",
   "private": true,
   "scripts": {
-    "deploy": "ts-node deploy.ts"
+    "deploy": "ts-node deploy.ts",
+    "query": "ts-node query.ts"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",

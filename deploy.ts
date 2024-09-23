@@ -35,7 +35,7 @@ const run = async () => {
 
     // Some random salt to prevent duplication issue
     // Salt is optional, you can skip this to use an empty salt 
-    const salt = stringToHex('random3'); 
+    const salt = stringToHex('random4'); 
 
     // Dry run the constructor call for validation and gas estimation
     // An Error will be thrown out if there's a DispatchError or LangError (contract level error)
